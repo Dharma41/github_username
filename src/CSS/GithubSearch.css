@@ -1,0 +1,122 @@
+/* Container Styling */
+.github-search {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Form Styling */
+.github-search form {
+    display: inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.github-search input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.github-search input:focus {
+    border: 1px solid #007bff;
+}
+
+.github-search button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 120px; /* Fixed width to prevent button movement */
+    text-align: center;
+}
+
+.github-search button:hover {
+    background-color: #0056b3;
+}
+
+/* User Details Card */
+.user-details {
+    display: inline-block;
+    text-align: left;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.user-details:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* User Image Styling */
+.user-details img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/* User Text Styling */
+.user-details h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.user-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* GitHub Profile Link */
+.user-details a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.user-details a:hover {
+    color: #0056b3;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .github-search input {
+        width: 200px;
+    }
+
+    .user-details {
+        width: 90%;
+    }
+}
