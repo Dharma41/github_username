@@ -1,4 +1,4 @@
-GitHub User Search
+GitHub User Search (Deployed in Netlify: https://getgithubuserbio.netlify.app/)
 
 Project Overview
 
